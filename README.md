@@ -1,9 +1,10 @@
 # installing
 
-```
+```shell
 $ mkdir -p ~/.elinks/plugged
 $ cd ~/.elinks/plugged
 $ git clone http://github.com/yazgoo/elinks-plug
+```
 
 in ~/.elinks/, Add this line at the top of hooks.lua
 
