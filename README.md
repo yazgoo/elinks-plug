@@ -16,8 +16,8 @@ loadfile(debug.getinfo(1, "S").source:sub(2):match("(.*/)") .. "/plugged/elinks-
 
 in your hooks.lua, add plugins, e.g.
 
-```
-plug("http://github.com/yazgoo/elinks-basis")
+```lua
+plug("git@github.com:yazgoo/elinks-basis")
 ```
 
 then start elinks to install them.
